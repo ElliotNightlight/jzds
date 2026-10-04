@@ -35,3 +35,21 @@ void jzdsX_arr2d_init(struct jzds_arr2d *a2,
 	if (jzds_arr2d_init(a2, msize, hgt, wdt))
 		JZDS_abort(NULL);
 }
+
+void jzdsX_arrdeq_init(struct jzds_arrdeq *ad, size_t msize)
+{
+	if (jzds_arrdeq_init(ad, msize))
+		JZDS_abort(NULL);
+}
+
+void jzdsX_arrdeq_push(struct jzds_arrdeq *ad, const void *val)
+{
+	if (jzds_arrdeq_push(ad, val))
+		JZDS_abort(NULL);
+}
+
+void jzdsX_arrdeq_unshift(struct jzds_arrdeq *ad, const void *val)
+{
+	if (jzds_arrdeq_unshift(ad, val))
+		JZDS_abort(NULL);
+}

@@ -19,4 +19,9 @@ void jzdsX_arr2d_init(struct jzds_arr2d *a2,
                       size_t             hgt,
                       size_t             wdt);
 
+/* arrdeq */
+void jzdsX_arrdeq_init   (struct jzds_arrdeq *ad, size_t msize);
+void jzdsX_arrdeq_push   (struct jzds_arrdeq *ad, const void *val);
+void jzdsX_arrdeq_unshift(struct jzds_arrdeq *ad, const void *val);
+
 #endif /* JZDSX_INCLUDED */

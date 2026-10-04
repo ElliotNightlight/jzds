@@ -1,9 +1,9 @@
 FEATURES
 
-[.] implement array deque and test it
 [.] implement sparse set and test it
 [x] implement dynamic array and test it
 [x] implement 2D array and test it
+[x] implement array deque and test it
 
 BUGS
 
