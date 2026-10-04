@@ -7,5 +7,6 @@
 #define JZDS_INCLUDED
 
 #include "jzds/dynarr.h"
+#include "jzds/arr2d.h"
 
 #endif /* JZDS_INCLUDED */

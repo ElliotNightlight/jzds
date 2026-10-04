@@ -26,3 +26,12 @@ void jzdsX_dynarr_push(struct jzds_dynarr *da, const void *val)
 	if (jzds_dynarr_push(da, val))
 		JZDS_abort(NULL);
 }
+
+void jzdsX_arr2d_init(struct jzds_arr2d *a2,
+                      size_t             msize,
+                      size_t             hgt,
+                      size_t             wdt)
+{
+	if (jzds_arr2d_init(a2, msize, hgt, wdt))
+		JZDS_abort(NULL);
+}
