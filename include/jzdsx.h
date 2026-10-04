@@ -24,4 +24,7 @@ void jzdsX_arrdeq_init   (struct jzds_arrdeq *ad, size_t msize);
 void jzdsX_arrdeq_push   (struct jzds_arrdeq *ad, const void *val);
 void jzdsX_arrdeq_unshift(struct jzds_arrdeq *ad, const void *val);
 
+/* sparseset */
+void jzdsX_sparseset_init(struct jzds_sparseset *sps, size_t vrange);
+
 #endif /* JZDSX_INCLUDED */

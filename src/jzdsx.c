@@ -53,3 +53,9 @@ void jzdsX_arrdeq_unshift(struct jzds_arrdeq *ad, const void *val)
 	if (jzds_arrdeq_unshift(ad, val))
 		JZDS_abort(NULL);
 }
+
+void jzdsX_sparseset_init(struct jzds_sparseset *sps, size_t vrange)
+{
+	if (jzds_sparseset_init(sps, vrange))
+		JZDS_abort(NULL);
+}

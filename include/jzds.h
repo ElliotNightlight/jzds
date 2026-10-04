@@ -9,5 +9,6 @@
 #include "jzds/dynarr.h"
 #include "jzds/arr2d.h"
 #include "jzds/arrdeq.h"
+#include "jzds/sparseset.h"
 
 #endif /* JZDS_INCLUDED */

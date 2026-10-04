@@ -6,6 +6,7 @@ Following data structures have been implemented (they may need refinements):
  - dynamic array (dynarr)
  - two-dimensional static array (arr2d)
  - array-based double-ended queue (arrdeq)
+ - sparse set (sparseset)
 
 ## Legal
 
